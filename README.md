@@ -3,7 +3,7 @@
 
 This node is A plugin for Axway API Builder to create mock data like real world.
 
-During API lifecycle, when the back-end API is not completed, the front end simulates the back-end interface manually in order not to affect the work efficiency.
+During API lifecycle, when the back-end API is not completed, the frontend simulates the backend interface manually in order not to affect the work efficiency.
 
 1. We can use JSON files to simulate background data, but it is limited and cannot simulate the post, delete, patch and query of data
 2. Json files simulation but data cannot be generated randomly
@@ -99,5 +99,4 @@ npm start
 ##  Note
 The mockapi.svg come from [fontawesome](https://fontawesome.com/v5.15/icons/rocket?style=solid)
 
-[How to desgin the mock template]
-(http://mockjs.com/examples.html)
+[How to desgin the mock template](http://mockjs.com/examples.html)
