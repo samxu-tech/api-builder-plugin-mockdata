@@ -22,8 +22,8 @@ var Mock = require('mockjs')
 async function mockapi(params, options) {
 	const source = params.source;
 	const { logger } = options;
-	if (!source ) {
-		throw new Error('Invalid source, string required.');
+	if (!source || typeof source !== 'object') {
+		throw new Error('Invalid source, object required.');
 	} 
 	// JSON cloning to work with models better.
 	const obj = JSON.parse(JSON.stringify(source));
